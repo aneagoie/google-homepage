@@ -1,3 +1,4 @@
 # google-homepage
-basic HTML and CSS for Google Homepage
-Lesson from Odin Project
+Basic HTML and CSS for Google Homepage
+Project HTML/CSS - Lesson from Odin Project
+http://www.theodinproject.com/web-development-101/html-css
