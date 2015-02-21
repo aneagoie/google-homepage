@@ -3,11 +3,11 @@
 #toptabs {
 color: rgb(64, 64, 64);
 float: right;
-margin-top: -110px;
+margin-top: 10px;
 }
 
 #middle {
-margin: 120px auto;
+margin: 0px auto;
 }
 
 p {
@@ -98,25 +98,37 @@ margin-right: auto;
 display: block;
 height: 190px;
 width:400px;
-margin: auto;
+margin-left: 520px;
 }
 
 .footer {
-clear: both;
 background-color: rgba(0, 0, 0, 0.15);
 font-family: Arial, sans-serif;
-font-size: 11px;
-font-weight: bold;
-opacity: .8;
+font-size: 13px;
+opacity: .7;
 position: absolute;
 width: 100%;
 bottom: 0;
 left: 0;
 overflow: hidden;
+
 }
-.footer, .push{
-height: 142px;
+
+ul:nth-child(1) {
+list-style-type: none;
+float: left;
+
 }
+ul:nth-child(2) {
+list-style-type: none;
+float: right;
+}
+
+li {
+display: inline-block;
+padding-right: 15px;
+}
+
 
 html, body {
   height: 100%;
@@ -127,6 +139,9 @@ html, body {
 .googleweb {
 min-height: 100%;
 position: relative;
-margin-bottom: 142px;
+padding-bottom: 0px;
 }
 
+.some {
+display: block;
+padding-bottom: 110px;
